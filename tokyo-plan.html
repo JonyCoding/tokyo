@@ -193,7 +193,7 @@ body.hide-budget .nav-budget{display:none!important}
 <div class="hdr">
   <div class="hdr-eyebrow">Tokyo Field Guide · 2026</div>
   <h1><em>TOKYO</em> FIELD GUIDE</h1>
-  <div class="hdr-date">2026.05.21 — 05.27 · 南砂町 Base · 拍摄 / 路线 / Checklist</div>
+  <div class="hdr-date">2026.05.21 — 05.28 · 南砂町 Base · 拍摄 / 路线 / Checklist</div>
   <div class="hdr-tags">
     <span class="htag c-blue">商务版行程台</span>
     <span class="htag">每日路线</span>
@@ -224,6 +224,7 @@ body.hide-budget .nav-budget{display:none!important}
     <button class="nbtn" onclick="showDay('25')">5/25</button>
     <button class="nbtn" onclick="showDay('26')">5/26</button>
     <button class="nbtn" onclick="showDay('27')">5/27</button>
+    <button class="nbtn" onclick="showDay('28')">5/28</button>
     <button class="nbtn nav-budget" onclick="showPage('budget')">预算</button>
   </div>
 </nav>
@@ -361,26 +362,36 @@ body.hide-budget .nav-budget{display:none!important}
       <div class="sec-title" style="font-size:16px;margin-bottom:16px">时间线</div>
 
       <div class="tl">
-        <div class="tl-row transit">
-          <div class="tl-time">17:30</div>
+        <div class="tl-row key">
+          <div class="tl-time">10:15</div>
           <div class="tl-dot"></div>
           <div>
-            <div class="tl-text">成田机场 T1 到达</div>
+            <div class="tl-text">去程航班起飞</div>
+            <div class="tl-sub">10:15 → 17:15，抵达日本后先走入境 / 取行李 / 交通卡</div>
+          </div>
+        </div>
+        <div class="tl-row key">
+          <div class="tl-time">17:15</div>
+          <div class="tl-dot"></div>
+          <div>
+            <div class="tl-text">抵达日本机场</div>
+            <div class="tl-sub">机场、航站楼以航班信息为准；落地后先处理入境和行李</div>
           </div>
         </div>
         <div class="tl-row transit">
-          <div class="tl-time">17:40</div>
+          <div class="tl-time">17:50</div>
           <div class="tl-dot"></div>
           <div>
-            <div class="tl-text">乘京成 Access 特快出发</div>
-            <div class="tl-sub">成田→日本桥 约40min ¥1,330 · 换东西线→南砂町 约20min ¥178</div>
+            <div class="tl-text">机场 → 南砂町</div>
+            <div class="tl-sub">若为成田：京成 Access 特快→日本桥→东西线；若为羽田：按实时路线转东西线</div>
           </div>
         </div>
         <div class="tl-row go-home">
-          <div class="tl-time">19:00</div>
+          <div class="tl-time">19:30</div>
           <div class="tl-dot"></div>
           <div>
             <div class="tl-text">南砂町到达 <span class="badge b-green">和昊哥确认碰面</span></div>
+            <div class="tl-sub">实际到达时间看入境和机场交通，第一晚不排太满</div>
           </div>
         </div>
         <div class="tl-row">
@@ -397,11 +408,11 @@ body.hide-budget .nav-budget{display:none!important}
         <div>
           <div class="sec-eyebrow" style="margin-bottom:10px">Route</div>
           <div class="route-card">
-            <div class="route-lbl">成田→南砂町</div>
-            京成 Access 特快 <strong>¥1,330</strong>（约 40 min）<br>
-            → 日本桥（步行换乘 3 min）<br>
-            → 东西线 → 南砂町 <strong>¥178</strong><br>
-            <span style="color:var(--dim);font-size:12px">全程约 1.5 ~ 2 小时 · 全程可刷 Suica ✅</span>
+            <div class="route-lbl">机场→南砂町</div>
+            10:15–17:15 去程航班抵达后，先入境 / 取行李 / 激活 Suica。<br>
+            若为成田：京成 Access 特快 → 日本桥 → 东西线 → 南砂町。<br>
+            若为羽田：按 Google Maps 实时路线转东西线回南砂町。<br>
+            <span style="color:var(--dim);font-size:12px">建议按 1.5 ~ 2 小时预留；全程尽量刷 Suica ✅</span>
           </div>
           <div class="card" >
             <div class="card-label">落地清单</div>
@@ -1025,6 +1036,83 @@ body.hide-budget .nav-budget{display:none!important}
     </div>
   </div>
 
+
+  <!-- ---- 5/28 ---- -->
+  <div id="day-28" class="day-sec">
+    <div class="sec">
+      <div class="day-hdr">
+        <div>
+          <div class="day-meta-eyebrow">Day 8 · 周四</div>
+          <div class="day-meta-title">5/28 · 回国 · 机场免税店</div>
+          <div class="day-meta-theme">收尾 · 免税店 · 10:00–12:15 航班</div>
+        </div>
+      </div>
+
+      <div class="box box-warn">国际航班建议至少提前 3 小时到机场。因为还要逛免税店，建议 <strong>07:00~07:15</strong> 到机场；出发机场（成田 / 羽田）按航班信息最终确认。</div>
+
+      <div class="tl" style="margin-top:20px">
+        <div class="tl-row transit">
+          <div class="tl-time">05:30</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">起床 · 最后检查行李</div>
+          <div class="tl-sub">护照、手机、钱包、相机电池、充电器、房间遗留物</div></div>
+        </div>
+        <div class="tl-row transit">
+          <div class="tl-time">06:00</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">从南砂町出发去机场</div>
+          <div class="tl-sub">成田按 70~90min 预留；羽田按 50~70min 预留；以 Google Maps 当天实时路线为准</div></div>
+        </div>
+        <div class="tl-row key">
+          <div class="tl-time">07:15</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">到达机场 · 值机 / 托运 / 安检</div>
+          <div class="tl-sub">先把托运和安检处理掉，免税店放在安检后更从容</div></div>
+        </div>
+        <div class="tl-row key">
+          <div class="tl-time">08:10</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">免税店时间</div>
+          <div class="tl-sub">重点买伴手礼、化妆品、零食；液体和封袋商品注意登机规则</div></div>
+        </div>
+        <div class="tl-row key">
+          <div class="tl-time">09:20</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">去登机口</div>
+          <div class="tl-sub">不要卡最后广播，免税店买完直接往登机口走</div></div>
+        </div>
+        <div class="tl-row key">
+          <div class="tl-time">10:00</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">回程航班起飞</div>
+          <div class="tl-sub">10:00 → 12:15</div></div>
+        </div>
+        <div class="tl-row go-home">
+          <div class="tl-time">12:15</div>
+          <div class="tl-dot"></div>
+          <div><div class="tl-text">抵达国内</div>
+          <div class="tl-sub">取行李、入境、回家，东京行程结束</div></div>
+        </div>
+      </div>
+
+      <div class="g2" style="margin-top:20px">
+        <div class="card">
+          <div class="card-label">回国前检查</div>
+          <table>
+            <tr><td>护照 / 登机牌 / 钱包 / 手机</td><td>放随身包最外层</td></tr>
+            <tr><td>充电宝 / 相机电池</td><td>随身携带，不托运</td></tr>
+            <tr><td>免税封袋商品</td><td>出境前不要拆</td></tr>
+            <tr><td>房间检查</td><td>床头、插座、浴室、冰箱、抽屉</td></tr>
+          </table>
+        </div>
+        <div class="card">
+          <div class="card-label">免税店建议</div>
+          <p style="font-size:13px;color:var(--text);line-height:1.8">先买最明确的伴手礼和消耗品，不在机场临时纠结大件。液体、喷雾、酒类按机场免税封袋规则走；登机前 30~40 分钟结束购物最稳。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div><!-- /days-container -->
 
 <!-- ========== PAGE: BUDGET ========== -->
@@ -1120,7 +1208,9 @@ body.hide-budget .nav-budget{display:none!important}
     <div id="checklist-wrap">
       <div class="cl-cat">证件 / 钱包 / 入境</div>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>护照原件 + 护照首页照片备份</span></label>
-      <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>机票 / 酒店 / 保险 / 签证或入境资料截图</span></label>
+      <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>去程航班 5/21 10:15–17:15 信息截图</span></label>
+      <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>回程航班 5/28 10:00–12:15 信息截图</span></label>
+      <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>酒店 / 保险 / 签证或入境资料截图</span></label>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>银行卡 / 信用卡 / 银联卡 / 少量现金</span></label>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>Suica（Apple Pay 预先添加，落地可直接刷）</span></label>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>Shibuya Sky 预约确认截图保存</span></label>
@@ -1154,6 +1244,8 @@ body.hide-budget .nav-budget{display:none!important}
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>舒适鞋 / 袜子 / 换洗衣物</span></label>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>牙刷牙膏 / 剃须刀 / 护肤 / 防晒</span></label>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>行李牌 / 小锁 / 折叠购物袋</span></label>
+      <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>5/28 回国前检查房间：插座、床头、浴室、冰箱、抽屉</span></label>
+      <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>免税店购物清单：伴手礼 / 零食 / 化妆品 / 补买小物</span></label>
 
       <div class="cl-cat">每天必拍（比景点更重要）</div>
       <label class="cl-item"><input type="checkbox" onchange="updateChecklist()"><span>地铁广播 / 电车进站声（声音素材）</span></label>
@@ -1224,7 +1316,7 @@ body.hide-budget .nav-budget{display:none!important}
 </div><!-- /main -->
 
 <div class="footer">
-  TOKYO FIELD GUIDE · 2026.05.21–05.27<br>
+  TOKYO FIELD GUIDE · 2026.05.21–05.28<br>
   <span style="opacity:.4">商务分享版 / 移动端友好 / 路线清晰 / 拍摄清单</span>
 </div>
 
@@ -1382,8 +1474,9 @@ function buildGantt() {
     {
       label: '5/21 抵达',
       events: [
-        { start: 17.5, dur: 1.5, type: 'transit', label: '成田→南砂町' },
-        { start: 19, dur: 2, type: 'activity', label: '夜拍' },
+        { start: 10.25, dur: 7, type: 'key', label: '去程航班' },
+        { start: 17.8, dur: 1.7, type: 'transit', label: '机场→南砂町' },
+        { start: 19.5, dur: 1.5, type: 'activity', label: '轻松夜拍' },
       ]
     },
     {
@@ -1433,7 +1526,7 @@ function buildGantt() {
         { start: 13, dur: 0.5, type: 'transit', label: '→银座' },
         { start: 13.5, dur: 2.5, type: 'activity', label: '银座' },
         { start: 16, dur: 2.5, type: 'key', label: '东京站夜景' },
-        { start: 19, dur: 0.5, type: 'transit', label: '→家' },
+        { start: 21.25, dur: 0.6, type: 'transit', label: '→家' },
       ]
     },
     {
@@ -1444,6 +1537,15 @@ function buildGantt() {
         { start: 13.5, dur: 2, type: 'activity', label: '秋叶原' },
         { start: 15.5, dur: 2.5, type: 'activity', label: '新宿/涩谷' },
         { start: 21, dur: 0.7, type: 'transit', label: '→家' },
+      ]
+    },
+    {
+      label: '5/28 回国',
+      events: [
+        { start: 7.25, dur: 0.8, type: 'transit', label: '到机场·安检' },
+        { start: 8.15, dur: 1.1, type: 'activity', label: '免税店' },
+        { start: 9.33, dur: 0.5, type: 'key', label: '登机口' },
+        { start: 10, dur: 2.25, type: 'key', label: '回程航班' },
       ]
     }
   ];
